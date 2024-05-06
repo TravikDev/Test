@@ -2,8 +2,7 @@ import { sofiaSans } from "@/styles/fonts";
 import { twMerge } from "tailwind-merge";
 import DetailsList from "./detailsCategoriesList";
 
-export default function TermsAndConditions(props: any) {
-  console.log(props);
+export default function TermsAndConditions() {
   return (
     <>
       <h1
