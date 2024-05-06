@@ -26,7 +26,7 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
               {item.title}
             </h3>
 
-            <div className="z-10 flex h-[15px] w-[15px] rotate-45 items-center justify-center group-open:rotate-0">
+            <div className="z-10 flex h-[15px] w-[15px] rotate-45 items-center justify-center transition-transform group-open:rotate-0">
               <div className="absolute h-[1.5px] w-[18px] rotate-45 rounded bg-white"></div>
               <div className="absolute h-[1.5px] w-[18px] -rotate-45 rounded bg-white"></div>
             </div>
@@ -58,16 +58,18 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
                 >
                   1.1
                 </p>
-                The first deposit&nbsp;
-                <span
-                  className={twMerge(
-                    rubik600.className,
-                    "text-sm leading-[18.62px]",
-                  )}
-                >
-                  bonus is 100% up to €200 + 70 Free Spins
-                </span>
-                .
+                <p>
+                  The first deposit&nbsp;
+                  <span
+                    className={twMerge(
+                      rubik600.className,
+                      "text-sm leading-[18.62px]",
+                    )}
+                  >
+                    bonus is 100% up to €200 + 70 Free Spins
+                  </span>
+                  .
+                </p>
               </li>
               <li className="flex min-h-8 pt-4">
                 <p
@@ -78,27 +80,29 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
                 >
                   1.2
                 </p>
-                To receive a&nbsp;
-                <span
-                  className={twMerge(
-                    rubik600.className,
-                    "text-sm leading-[18.62px]",
-                  )}
-                >
-                  100% bonus&nbsp;
-                </span>
-                on the first deposit, players must deposit at least&nbsp;
-                <span
-                  className={twMerge(
-                    rubik600.className,
-                    "text-sm leading-[18.62px]",
-                  )}
-                >
-                  €20
-                </span>
-                .
+                <p>
+                  To receive a&nbsp;
+                  <span
+                    className={twMerge(
+                      rubik600.className,
+                      "text-sm leading-[18.62px]",
+                    )}
+                  >
+                    100% bonus&nbsp;
+                  </span>
+                  on the first deposit, players must deposit at least&nbsp;
+                  <span
+                    className={twMerge(
+                      rubik600.className,
+                      "text-sm leading-[18.62px]",
+                    )}
+                  >
+                    €20
+                  </span>
+                  .
+                </p>
               </li>
-              <li className="flex min-h-8 pt-4">
+              <li className="flex min-h-8 flex-row pt-4">
                 <p
                   className={twMerge(
                     rubik600.className,
@@ -107,25 +111,27 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
                 >
                   1.3
                 </p>
-                To receive a&nbsp;
-                <span
-                  className={twMerge(
-                    rubik600.className,
-                    "text-sm leading-[18.62px]",
-                  )}
-                >
-                  100% bonus and 70 Free Spins
-                </span>&nbsp;
-                on the first deposit, players need to make a&nbsp;
-                <span
-                  className={twMerge(
-                    rubik600.className,
-                    "text-sm leading-[18.62px]",
-                  )}
-                >
-                  deposit of €50 or more
-                </span>
-                .
+                <p>
+                  To receive a&nbsp;
+                  <span
+                    className={twMerge(
+                      rubik600.className,
+                      "text-sm leading-[18.62px]",
+                    )}
+                  >
+                    100% bonus and 70 Free Spins
+                  </span>
+                  &nbsp; on the first deposit, players need to make a&nbsp;
+                  <span
+                    className={twMerge(
+                      rubik600.className,
+                      "text-sm leading-[18.62px]",
+                    )}
+                  >
+                    deposit of €50 or more
+                  </span>
+                  .
+                </p>
               </li>
             </ol>
           </div>

@@ -3,7 +3,7 @@ import type { Metadata } from "next/types";
 import NavList from "./navList";
 
 export const metadata: Metadata = {
-  title: "Test Index",
+  title: "Index Page",
   description: "Description",
 };
 
