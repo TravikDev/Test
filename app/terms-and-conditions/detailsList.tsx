@@ -15,9 +15,9 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
         <details
           key={item.title}
           open={idx === 0 && item.title === "General Rules"}
-          className="group relative flex flex-col border-[1px] border-details-inactive border-opacity-15 bg-background-details-inactive p-5 open:border-[3px] open:border-b-[6px] open:border-details-active open:bg-background-details-active open:px-6 open:shadow-[rgba(232,74,17,0.5)_0px_4px_8px_0px]"
+          className="group relative flex flex-col border-[1px] border-details-inactive border-opacity-15 bg-background-details-inactive transition duration-300 ease-out open:border-[3px] open:border-b-[6px] open:border-details-active open:bg-background-details-active open:px-6 open:shadow-[rgba(232,74,17,0.5)_0px_4px_8px_0px] hover:bg-background-details-active"
         >
-          <summary className="flex cursor-pointer items-center justify-between group-open:mb-4">
+          <summary className="flex cursor-pointer items-center justify-between p-5 group-open:px-0">
             <TopLeftInactive className="visible absolute left-[6px] top-[6px] group-open:hidden" />
             <BottomRightInactive className="visible absolute bottom-[6px] right-[6px] group-open:hidden" />
             <h3
@@ -26,7 +26,7 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
               {item.title}
             </h3>
 
-            <div className="z-10 flex h-[15px] w-[15px] rotate-45 items-center justify-center transition-transform group-open:rotate-0">
+            <div className="z-10 flex h-[15px] w-[15px] rotate-45 items-center justify-center transition-transform duration-200 group-open:rotate-0">
               <div className="absolute h-[1.5px] w-[18px] rotate-45 rounded bg-white"></div>
               <div className="absolute h-[1.5px] w-[18px] -rotate-45 rounded bg-white"></div>
             </div>
@@ -34,7 +34,7 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
 
           <TopLeft className="absolute left-0 top-0" fill="#F48F6B" />
           <TopRight className="absolute right-0 top-0" fill="#F48F6B" />
-          <div className="flex flex-col gap-4 divide-y-[1px] divide-white divide-opacity-15">
+          <div className="flex flex-col gap-4 divide-y-[1px] divide-white divide-opacity-15 pb-5">
             <p
               className={twMerge(
                 rubik400.className,
