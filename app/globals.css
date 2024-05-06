@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .main-layout {
+    @apply flex flex-col w-[1201px] gap-[24px];
+  }
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* --foreground-rgb: 0, 0, 0; */
+  /* --background-start-rgb: 214, 219, 220; */
+  /* --background-end-rgb: 255, 255, 255; */
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* --foreground-rgb: 255, 255, 255; */
+    /* --background-start-rgb: 0, 0, 0; */
+    /* --background-end-rgb: 0, 0, 0; */
+    color: white;
   }
 }
 
@@ -30,4 +38,25 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+details, details > * {
+  margin: 0;
+  padding: 0;
+  /* border: none; */
+  outline: none;
+  appearance: none;
+
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  list-style: none;
+}
+
+details[open] summary .active {
+  display: none;
 }

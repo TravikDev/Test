@@ -1,21 +1,20 @@
 import { sofiaSans } from "@/styles/fonts";
 import { twMerge } from "tailwind-merge";
+import DetailsCategoriesList from "../terms-and-conditions/detailsCategoriesList";
 
-export default function Home() {
-
+export default function ResponsibleGaming() {
   return (
-    <main className="main-layout">
+    <>
       <h1
         className={twMerge(
           sofiaSans.className,
           "text-5xl leading-[57.6px] gap-6 min-h-[58px]"
         )}
       >
-        Index Page
+        Responsible Gaming
       </h1>
 
-      <p>Нажмите на любую ссылку в меню</p>
-
-    </main>
+      <DetailsCategoriesList />
+    </>
   );
 }
