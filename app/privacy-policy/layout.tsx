@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
-  title: "Test Security",
+  title: "Privacy Policy",
   description: "Description",
 };
 

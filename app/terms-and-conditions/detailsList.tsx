@@ -85,8 +85,8 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
                     "text-sm leading-[18.62px]",
                   )}
                 >
-                  100% bonus
-                </span>{" "}
+                  100% bonus&nbsp;
+                </span>
                 on the first deposit, players must deposit at least&nbsp;
                 <span
                   className={twMerge(
@@ -115,7 +115,7 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
                   )}
                 >
                   100% bonus and 70 Free Spins
-                </span>{" "}
+                </span>&nbsp;
                 on the first deposit, players need to make a&nbsp;
                 <span
                   className={twMerge(
