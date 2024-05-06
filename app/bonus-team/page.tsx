@@ -5,16 +5,16 @@ import DetailsCategoriesList from "../terms-and-conditions/detailsCategoriesList
 export default function BonusTeam() {
   return (
     <>
-    <h1
-      className={twMerge(
-        sofiaSans.className,
-        "text-5xl leading-[57.6px] gap-6 min-h-[58px]"
-      )}
-    >
-      Bonus Team
-    </h1>
+      <h1
+        className={twMerge(
+          sofiaSans.className,
+          "min-h-[58px] gap-6 text-5xl leading-[57.6px]",
+        )}
+      >
+        Bonus Team
+      </h1>
 
-    <DetailsCategoriesList />
-  </>
+      <DetailsCategoriesList />
+    </>
   );
 }

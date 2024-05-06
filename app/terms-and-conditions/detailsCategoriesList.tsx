@@ -9,12 +9,12 @@ export default function DetailsCategoriesList() {
       {detailsList.map((items) => (
         <section
           key={items.category}
-          className="flex flex-col gap-4 max-w-full overflow-x-clip"
+          className="flex max-w-full flex-col gap-4 overflow-x-clip"
         >
           <h2
             className={twMerge(
               sofiaSans.className,
-              "text-2xl leading-[28.8px] text-h2"
+              "text-2xl leading-[28.8px] text-h2",
             )}
           >
             {items.category}

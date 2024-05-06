@@ -8,7 +8,7 @@ export default function ResponsibleGaming() {
       <h1
         className={twMerge(
           sofiaSans.className,
-          "text-5xl leading-[57.6px] gap-6 min-h-[58px]"
+          "min-h-[58px] gap-6 text-5xl leading-[57.6px]",
         )}
       >
         Responsible Gaming

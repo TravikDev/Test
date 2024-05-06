@@ -7,9 +7,9 @@ import { subMenu } from "@/assets/data/submenu";
 
 export default function NavList() {
   return (
-    <nav className="relative border-[1px] border-white border-opacity-15 h-fit laptopmax:hidden visible">
-      <TopLeft className="absolute -top-[1px] -left-[1px]" />
-      <TopRight className="absolute -top-[1px] -right-[1px]" />
+    <nav className="visible relative h-fit border-[1px] border-white border-opacity-15 laptopmax:hidden">
+      <TopLeft className="absolute -left-[1px] -top-[1px]" />
+      <TopRight className="absolute -right-[1px] -top-[1px]" />
       <BottomLeft className="absolute -bottom-[1px] -left-[1px]" />
       <BottomRight className="absolute -bottom-[1px] -right-[1px]" />
       <ul className="divide-y-[1px] divide-white divide-opacity-15">

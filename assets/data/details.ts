@@ -8,17 +8,17 @@ export const detailsList = [
           "We've made registering at our casino as easy as possible so you don't have to go through any hassles and formalities. Registering takes only a few seconds and then you can start enjoying many bonuses and offers at.",
         list: [
           {
-            id: '1.1',
+            id: "1.1",
             title:
               "The first deposit bonus is 100% up to €200 + 70 Free Spins.",
           },
           {
-            id: '1.2',
+            id: "1.2",
             title:
               "To receive a 100% bonus on the first deposit, players must deposit at least €20.",
           },
           {
-            id: '1.3',
+            id: "1.3",
             title:
               "To receive a 100% bonus and 70 Free Spins on the first deposit, players need to make a deposit of €50 or more.",
           },

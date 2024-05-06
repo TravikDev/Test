@@ -29,7 +29,6 @@ const config: Config = {
         "background-details-active": "#5C5380",
 
         h2: "#7E93A8",
-        // 'border': '#3D2D52'
         white: "#FFFFFF",
       },
       width: {
@@ -42,7 +41,6 @@ const config: Config = {
       tablet: { min: "1024px" },
       laptop: { min: "1366px" },
       laptopmax: { max: "1366px" },
-      // desktop: { min: "1366px" },
     },
   },
   plugins: [],
