@@ -22,7 +22,7 @@ const TopRight = ({ className }: PropsSvg) => (
         y2="25.1707"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#F4E02B" />
+        <stop offset="0" stopColor="#F4E02B" />
         <stop offset="1" stopColor="#F48F6B" />
       </linearGradient>
     </defs>

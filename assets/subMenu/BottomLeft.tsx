@@ -22,7 +22,7 @@ const BottomLeft = ({ className }: PropsSvg) => (
         y2="-2.5"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#E84A11" />
+        <stop offset="0" stopColor="#E84A11" />
         <stop offset="1" stopColor="#F4E02B" />
       </linearGradient>
     </defs>
