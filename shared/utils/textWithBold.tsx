@@ -18,15 +18,14 @@ export const TextWithBold = ({ text, bold }: PropsBoldText) => {
       {parts.map((part, index) => (
         <Fragment key={index}>
           {bold.includes(part) ? (
-            <span
+            <strong
               key={index}
               className={twMerge(
                 bold.includes(part) ? rubik600.className : rubik400.className,
               )}
             >
               {part}
-              {/* <strong>{part}</strong> */}
-            </span>
+            </strong>
           ) : (
             <>{part}</>
           )}
