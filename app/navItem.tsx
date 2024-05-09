@@ -1,9 +1,9 @@
 "use client";
 
-import BottomLeft from "@/assets/subMenu/BottomLeft";
-import BottomRight from "@/assets/subMenu/BottomRight";
-import TopLeft from "@/assets/subMenu/TopLeft";
-import TopRight from "@/assets/subMenu/TopRight";
+import BottomLeft from "@/shared/assets/subMenu/BottomLeft";
+import BottomRight from "@/shared/assets/subMenu/BottomRight";
+import TopLeft from "@/shared/assets/subMenu/TopLeft";
+import TopRight from "@/shared/assets/subMenu/TopRight";
 import { rubik600 } from "@/shared/styles/fonts";
 import { PropsNav } from "@/shared/types/props";
 import Link from "next/link";
