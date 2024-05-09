@@ -11,16 +11,19 @@ export const detailsList = [
             id: "1.1",
             title:
               "The first deposit bonus is 100% up to €200 + 70 Free Spins.",
+            bold: ["bonus is 100% up to €200 + 70 Free Spins"],
           },
           {
             id: "1.2",
             title:
               "To receive a 100% bonus on the first deposit, players must deposit at least €20.",
+            bold: ["100% bonus", "€20"],
           },
           {
             id: "1.3",
             title:
               "To receive a 100% bonus and 70 Free Spins on the first deposit, players need to make a deposit of €50 or more.",
+            bold: ["100% bonus and 70 Free Spins", "deposit of €50 or more"],
           },
         ],
       },

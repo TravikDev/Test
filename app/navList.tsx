@@ -1,7 +1,3 @@
-import BottomLeft from "@/assets/subMenu/BottomLeft";
-import BottomRight from "@/assets/subMenu/BottomRight";
-import TopLeft from "@/assets/subMenu/TopLeft";
-import TopRight from "@/assets/subMenu/TopRight";
 import NavItem from "./navItem";
 import { subMenu } from "@/assets/data/submenu";
 

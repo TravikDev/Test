@@ -1,4 +1,5 @@
 export type PropsSvg = { className?: string; fill?: string };
+
 export type PropsNav = {
   item: {
     title: string;
@@ -16,6 +17,7 @@ export type PropsDetailsList = {
         list: {
           id: string;
           title: string;
+          bold: string[];
         }[];
       }
     | {
@@ -24,4 +26,15 @@ export type PropsDetailsList = {
         list?: undefined;
       }
   )[];
+};
+
+export type PropsBoldText = {
+  text: string;
+  bold: string[];
+};
+
+export type PropsDetailsPointsList = {
+  id: string;
+  title: string;
+  bold: string[];
 };
