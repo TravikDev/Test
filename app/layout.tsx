@@ -5,6 +5,7 @@ import NavList from "./navList";
 export const metadata: Metadata = {
   title: "Index Page",
   description: "Description",
+
 };
 
 export default function RootLayout({
