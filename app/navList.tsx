@@ -8,13 +8,14 @@ import { subMenu } from "@/assets/data/submenu";
 export default function NavList() {
   return (
     <nav className="visible relative h-fit border-[1px] border-white border-opacity-15 laptopmax:hidden">
-      <TopLeft className="absolute -left-[1px] -top-[1px]" />
-      <TopRight className="absolute -right-[1px] -top-[1px]" />
-      <BottomLeft className="absolute -bottom-[1px] -left-[1px]" />
-      <BottomRight className="absolute -bottom-[1px] -right-[1px]" />
       <ul className="divide-y-[1px] divide-white divide-opacity-15">
-        {subMenu.map((item) => (
-          <NavItem key={item.title} item={item} />
+        {subMenu.map((item, idx) => (
+          <NavItem
+            key={item.title}
+            item={item}
+            idx={idx}
+            length={subMenu.length - 1}
+          />
         ))}
       </ul>
     </nav>

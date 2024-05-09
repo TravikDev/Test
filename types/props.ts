@@ -4,6 +4,8 @@ export type PropsNav = {
     title: string;
     url: string;
   };
+  idx: number;
+  length: number;
 };
 
 export type PropsDetailsList = {
