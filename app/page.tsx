@@ -1,4 +1,4 @@
-import { sofiaSans } from "@/styles/fonts";
+import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
 
 export default function Home() {

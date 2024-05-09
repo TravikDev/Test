@@ -4,8 +4,8 @@ import BottomRightInactive from "@/assets/details/BottomRightInactive";
 import TopLeft from "@/assets/details/TopLeft";
 import TopLeftInactive from "@/assets/details/TopLeftInactive";
 import TopRight from "@/assets/details/TopRight";
-import { rubik400, sofiaSans } from "@/styles/fonts";
-import { PropsDetailsList } from "@/types/props";
+import { rubik400, sofiaSans } from "@/shared/styles/fonts";
+import { PropsDetailsList } from "@/shared/types/props";
 import { twMerge } from "tailwind-merge";
 import DetailsPointsList from "./detailsPointsList";
 

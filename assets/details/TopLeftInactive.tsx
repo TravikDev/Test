@@ -1,4 +1,4 @@
-import type { PropsSvg } from "@/types/props";
+import type { PropsSvg } from "@/shared/types/props";
 
 const TopLeftInactive = ({ className }: PropsSvg) => (
   <svg

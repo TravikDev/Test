@@ -1,5 +1,6 @@
-import { rubik600 } from "@/styles/fonts";
-import { PropsBoldText } from "@/types/props";
+import { rubik400, rubik600 } from "@/shared/styles/fonts";
+import { PropsBoldText } from "@/shared/types/props";
+import { Fragment } from "react";
 import { twMerge } from "tailwind-merge";
 
 export const TextWithBold = ({ text, bold }: PropsBoldText) => {
@@ -15,12 +16,21 @@ export const TextWithBold = ({ text, bold }: PropsBoldText) => {
   return (
     <>
       {parts.map((part, index) => (
-        <span
-          key={index}
-          className={twMerge(bold.includes(part) && rubik600.className)}
-        >
-          {part}
-        </span>
+        <Fragment key={index}>
+          {bold.includes(part) ? (
+            <span
+              key={index}
+              className={twMerge(
+                bold.includes(part) ? rubik600.className : rubik400.className,
+              )}
+            >
+              {part}
+              {/* <strong>{part}</strong> */}
+            </span>
+          ) : (
+            <>{part}</>
+          )}
+        </Fragment>
       ))}
     </>
   );

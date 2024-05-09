@@ -1,5 +1,5 @@
 import { detailsList } from "@/assets/data/details";
-import { sofiaSans } from "@/styles/fonts";
+import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
 import DetailsList from "./detailsList";
 
