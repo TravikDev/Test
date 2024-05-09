@@ -27,10 +27,10 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
               {item.title}
             </h3>
 
-            <div className="z-10 flex h-[15px] w-[15px] rotate-45 items-center justify-center transition-transform duration-200 group-open:rotate-0">
-              <div className="absolute h-[1.5px] w-[18px] rotate-45 rounded bg-white"></div>
-              <div className="absolute h-[1.5px] w-[18px] -rotate-45 rounded bg-white"></div>
-            </div>
+            <span className="z-10 flex h-[15px] w-[15px] rotate-45 items-center justify-center transition-transform duration-200 group-open:rotate-0">
+              <span className="absolute h-[1.5px] w-[18px] rotate-45 rounded bg-white"></span>
+              <span className="absolute h-[1.5px] w-[18px] -rotate-45 rounded bg-white"></span>
+            </span>
           </summary>
 
           <div className="flex flex-col gap-4 divide-y-[1px] divide-white divide-opacity-15">
