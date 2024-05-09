@@ -14,8 +14,8 @@ export default function NavItem({ item, idx, length }: PropsNav) {
   const pathname = usePathname();
 
   return (
-    <Link href={item.url} className="z-10">
-      <li
+    <Link href={item.url}>
+      <div
         className={twMerge(
           rubik600.className,
           "z-10 px-4 py-3 text-[16px] font-bold leading-[21.28px] transition ease-in hover:bg-background-details-active",
@@ -28,14 +28,14 @@ export default function NavItem({ item, idx, length }: PropsNav) {
             <TopRight className="absolute -right-[1px] -top-[1px]" />
           </>
         )}
-        {idx === length && (
+        {idx === length - 1 && (
           <>
             <BottomLeft className="absolute -bottom-[1px] -left-[1px]" />
             <BottomRight className="absolute -bottom-[1px] -right-[1px]" />
           </>
         )}
         <p className="h-[21px] w-[199px]">{item.title}</p>
-      </li>
+      </div>
     </Link>
   );
 }
