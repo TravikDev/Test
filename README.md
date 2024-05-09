@@ -33,9 +33,9 @@ Link - [W3C CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2
 ![HTML5 Outliner](https://telegra.ph/file/dc2553ced9621f11081eb.png)
 
 
-**Next steps**:
+### Next steps:
 
-SEO Inside:
+**SEO Inside**:
 - meta
 - robots.txt
 - sitemap.xml
@@ -51,13 +51,15 @@ SEO Inside:
 - keyword frequency
 - indexNow
 - turbo (yandex)
+  
 ...and etc.
 
 
-SEO Outside:
+**SEO Outside**:
 - backlinks
 - social signals
 - web directories
 - user experience
 - webvisor
+  
 ...and etc.
