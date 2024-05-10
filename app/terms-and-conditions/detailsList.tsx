@@ -48,12 +48,14 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
                 "mb-1 flex flex-col gap-4 divide-y-[1px] divide-white divide-opacity-15 text-sm leading-[18.62px]",
               )}
             >
-              {item.list?.map((item) => (
+              {item.list?.map((item, pointIdx) => (
                 <DetailsPointsList
                   key={item.id}
                   id={item.id}
                   title={item.title}
                   bold={item.bold}
+                  categoryIdx={idx}
+                  pointIdx={pointIdx}
                 />
               ))}
             </ol>

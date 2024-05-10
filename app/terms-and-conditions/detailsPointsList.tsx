@@ -9,6 +9,8 @@ export default function DetailsPointsList({
   id,
   title,
   bold,
+  categoryIdx,
+  pointIdx
 }: PropsDetailsPointsList) {
   return (
     <li className="flex min-h-8 pt-4">
@@ -18,7 +20,7 @@ export default function DetailsPointsList({
           "top-2 ml-4 mr-5 w-5 text-base leading-4 text-details-enum",
         )}
       >
-        {id}
+        {categoryIdx+1}.{pointIdx+1}
       </p>
       <p>
         <TextWithBold text={title} bold={bold} />

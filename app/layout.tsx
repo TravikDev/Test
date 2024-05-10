@@ -5,7 +5,6 @@ import NavList from "./navList";
 export const metadata: Metadata = {
   title: "Index Page",
   description: "Description",
-
 };
 
 export default function RootLayout({
@@ -15,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="mx-[16px] my-16 flex justify-center gap-[72px] bg-background-base tablet:mx-[59px] laptop:mx-auto laptop:w-[1248px]">
+      <body className="mx-[16px] my-16 flex justify-center gap-[72px] bg-background-base text-white tablet:mx-[59px] laptop:mx-auto laptop:w-[1248px]">
         <NavList />
         {children}
       </body>

@@ -20,12 +20,13 @@ export type PropsDetailsList = {
           bold: string[];
         }[];
       }
-    | {
-        title: string;
-        description: string;
-        list?: undefined;
-      }
+    // | {
+    //     title: string;
+    //     description: string;
+    //     list?: undefined;
+    //   }
   )[];
+  // categoryIdx: number;
 };
 
 export type PropsBoldText = {
@@ -37,4 +38,6 @@ export type PropsDetailsPointsList = {
   id: string;
   title: string;
   bold: string[];
+  categoryIdx: number;
+  pointIdx: number;
 };

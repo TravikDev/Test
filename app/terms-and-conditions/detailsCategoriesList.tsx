@@ -6,7 +6,7 @@ import DetailsList from "./detailsList";
 export default function DetailsCategoriesList() {
   return (
     <div className="flex flex-col gap-9">
-      {detailsList.map((items) => (
+      {detailsList.map((items, idx) => (
         <section
           key={items.category}
           className="flex max-w-full flex-col gap-4 overflow-x-clip"
