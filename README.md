@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Project Description
+**Live Preview** - [Link](https://test-blue-three-40.vercel.app/)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies:
+<div style="display: flex; flex-direction: row;">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" width="64" height="64" />
+  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"  width="64" height="64" />
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 1. Google PageSpeed Insights:
+Link - [PageSpeed](https://pagespeed.web.dev/analysis/https-test-blue-three-40-vercel-app-terms-and-conditions/wpew1swiih?form_factor=desktop)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![PageSpeed](https://telegra.ph/file/3fcdddd45b441fd154d41.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 2. W3C HTML Validator:
+Link - [W3C HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftest-blue-three-40.vercel.app%2Fterms-and-conditions)
 
-To learn more about Next.js, take a look at the following resources:
+![W3C HTML](https://telegra.ph/file/1c942f01c56cf16857606.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 3. W3C CSS Validator:
+Link - [W3C CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftest-blue-three-40.vercel.app%2Fterms-and-conditions&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-## Deploy on Vercel
+![W3C CSS](https://telegra.ph/file/4e9ed5c565d405fd7571c.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 4. HTML5 Outliner:
+
+![HTML5 Outliner](https://telegra.ph/file/dc2553ced9621f11081eb.png)
+
+
+### Next steps:
+
+**SEO Inside**:
+- meta
+- robots.txt
+- sitemap.xml
+- openGraph
+- schema
+- aria-label
+- optimized images + alt
+- localization
+- cdn
+- ssl
+- re-linking
+- content length + updates
+- keyword frequency
+- indexNow
+- turbo (yandex)
+  
+...and etc.
+
+
+**SEO Outside**:
+- backlinks
+- social signals
+- web directories
+- user experience
+- webvisor
+  
+...and etc.
