@@ -6,8 +6,8 @@ import TopLeftInactive from "@/shared/assets/details/TopLeftInactive";
 import TopRight from "@/shared/assets/details/TopRight";
 import DetailsPointsList from "./detailsPointsList";
 import { rubik400, sofiaSans } from "@/shared/styles/fonts";
-import { PropsDetailsList } from "@/shared/types/props";
 import { twMerge } from "tailwind-merge";
+import type { PropsDetailsList } from "@/shared/types/props";
 
 export default function DetailsList({ subItems }: PropsDetailsList) {
   return (

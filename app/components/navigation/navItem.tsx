@@ -1,14 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import BottomLeft from "@/shared/assets/subMenu/BottomLeft";
 import BottomRight from "@/shared/assets/subMenu/BottomRight";
 import TopLeft from "@/shared/assets/subMenu/TopLeft";
 import TopRight from "@/shared/assets/subMenu/TopRight";
 import { rubik600 } from "@/shared/styles/fonts";
-import { PropsNav } from "@/shared/types/props";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
+import type { PropsNav } from "@/shared/types/props";
 
 export default function NavItem({ item, idx, length }: PropsNav) {
   const pathname = usePathname();

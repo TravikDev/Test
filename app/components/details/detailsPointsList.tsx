@@ -1,10 +1,11 @@
 import { rubik600 } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import { PropsDetailsPointsList } from "@/shared/types/props";
 import { TextWithBold } from "@/shared/utils/textWithBold";
+import type { PropsDetailsPointsList } from "@/shared/types/props";
+
 
 export default function DetailsPointsList({
-  id,
+  // id,
   title,
   bold,
   categoryIdx,
