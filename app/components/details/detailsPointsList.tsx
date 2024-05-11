@@ -1,9 +1,7 @@
-// import { TextWithBold } from "@/shared/utils/textWithBold";
 import { rubik600 } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
 import { PropsDetailsPointsList } from "@/shared/types/props";
 import { TextWithBold } from "@/shared/utils/textWithBold";
-// import TextWithBold from "@/shared/utils/textWithBold";
 
 export default function DetailsPointsList({
   id,

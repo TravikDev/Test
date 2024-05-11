@@ -1,6 +1,6 @@
 import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import DetailsCategoriesList from "../terms-and-conditions/detailsCategoriesList";
+import DetailsCategoriesList from "../components/details/detailsCategoriesList";
 
 export default function ResponsibleGaming() {
   return (

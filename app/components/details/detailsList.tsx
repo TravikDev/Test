@@ -4,10 +4,10 @@ import BottomRightInactive from "@/shared/assets/details/BottomRightInactive";
 import TopLeft from "@/shared/assets/details/TopLeft";
 import TopLeftInactive from "@/shared/assets/details/TopLeftInactive";
 import TopRight from "@/shared/assets/details/TopRight";
+import DetailsPointsList from "./detailsPointsList";
 import { rubik400, sofiaSans } from "@/shared/styles/fonts";
 import { PropsDetailsList } from "@/shared/types/props";
 import { twMerge } from "tailwind-merge";
-import DetailsPointsList from "./detailsPointsList";
 
 export default function DetailsList({ subItems }: PropsDetailsList) {
   return (

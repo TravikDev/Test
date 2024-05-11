@@ -1,6 +1,6 @@
 import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import DetailsList from "./detailsCategoriesList";
+import DetailsCategoriesList from "../components/details/detailsCategoriesList";
 
 export default function TermsAndConditions() {
   return (
@@ -14,7 +14,7 @@ export default function TermsAndConditions() {
         Terms and Conditions
       </h1>
 
-      <DetailsList />
+      <DetailsCategoriesList />
     </>
   );
 }

@@ -1,5 +1,5 @@
-import NavItem from "./navItem";
 import { subMenu } from "@/shared/data/submenu";
+import NavItem from "./navItem";
 
 export default function NavList() {
   return (
