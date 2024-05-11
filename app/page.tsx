@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 export default function Home() {
   return (
-    <main className="main-layout">
+    <>
       <h1
         className={twMerge(
           sofiaSans.className,
@@ -14,6 +14,6 @@ export default function Home() {
       </h1>
 
       <p>Нажмите на любую ссылку в меню</p>
-    </main>
+    </>
   );
 }
