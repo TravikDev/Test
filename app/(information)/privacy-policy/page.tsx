@@ -1,6 +1,6 @@
 import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import DetailsCategoriesList from "../components/details/detailsCategoriesList";
+import DetailsCategoriesList from "../../components/details/detailsCategoriesList";
 import type { Metadata } from "next/types";
 
 export const metadata: Metadata = {

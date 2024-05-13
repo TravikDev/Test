@@ -1,14 +1,14 @@
 import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import DetailsCategoriesList from "../components/details/detailsCategoriesList";
+import DetailsCategoriesList from "../../components/details/detailsCategoriesList";
 import type { Metadata } from "next/types";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions",
+  title: "Contact Us",
   description: "Description",
 };
 
-export default function TermsAndConditions() {
+export default function ContactUs() {
   return (
     <>
       <h1
@@ -17,7 +17,7 @@ export default function TermsAndConditions() {
           "min-h-[58px] gap-6 text-5xl leading-[57.6px]",
         )}
       >
-        Terms and Conditions
+        Contact Us
       </h1>
 
       <DetailsCategoriesList />
