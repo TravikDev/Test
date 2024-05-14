@@ -1,4 +1,4 @@
-import { subMenu } from "@/src/shared/data/submenu";
+import { subMenu } from "@/shared/data/submenu";
 import { NavItem } from "./navItem";
 
 export const NavList = () => {

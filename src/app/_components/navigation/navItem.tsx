@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { rubik600 } from "@/src/shared/styles/fonts";
+import { rubik600 } from "@/shared/styles/fonts";
 import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 import {
@@ -9,8 +9,8 @@ import {
   BottomRight,
   TopLeft,
   TopRight,
-} from "@/src/shared/assets/details";
-import type { PropsNav } from "@/src/shared/types/props";
+} from "@/shared/assets/details";
+import type { PropsNav } from "@/shared/types/props";
 
 export const NavItem = ({ item, idx, length }: PropsNav) => {
   const pathname = usePathname();

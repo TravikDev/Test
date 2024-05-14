@@ -1,7 +1,7 @@
 import { DetailsSubCategoriesList } from "./detailsSubCategoriesList";
-import { sofiaSans } from "@/src/shared/styles/fonts";
+import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import { detailsList } from "@/src/shared/data/details";
+import { detailsList } from "@/shared/data/details";
 
 export const DetailsCategoriesList = () => {
   return (

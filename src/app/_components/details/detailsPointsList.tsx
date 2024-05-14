@@ -1,7 +1,7 @@
-import { TextWithBold } from "@/src/shared/utils/textWithBold";
-import { rubik600 } from "@/src/shared/styles/fonts";
+import { TextWithBold } from "@/shared/utils/textWithBold";
+import { rubik600 } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import type { PropsDetailsPointsList } from "@/src/shared/types/props";
+import type { PropsDetailsPointsList } from "@/shared/types/props";
 
 
 export const DetailsPointsList = ({

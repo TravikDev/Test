@@ -1,4 +1,4 @@
-import "@/src/shared/styles/globals.css";
+import "@/shared/styles/globals.css";
 import { NavList } from "./_components/navigation/navList";
 import type { Metadata } from "next/types";
 

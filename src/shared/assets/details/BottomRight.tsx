@@ -1,4 +1,4 @@
-import type { PropsSvg } from "@/src/shared/types/props";
+import type { PropsSvg } from "@/shared/types/props";
 
 export const BottomRight = ({ className, fill }: PropsSvg) => (
   <svg

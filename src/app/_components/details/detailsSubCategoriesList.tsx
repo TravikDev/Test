@@ -1,5 +1,5 @@
 import { DetailsPointsList } from "./detailsPointsList";
-import { rubik400, sofiaSans } from "@/src/shared/styles/fonts";
+import { rubik400, sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
 import {
   BottomLeft,
@@ -8,8 +8,8 @@ import {
   TopLeft,
   TopLeftInactive,
   TopRight,
-} from "@/src/shared/assets/details";
-import type { PropsDetailsList } from "@/src/shared/types/props";
+} from "@/shared/assets/details";
+import type { PropsDetailsList } from "@/shared/types/props";
 
 export const DetailsSubCategoriesList = ({ subItems }: PropsDetailsList) => {
   return (
