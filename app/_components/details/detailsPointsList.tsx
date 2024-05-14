@@ -1,16 +1,16 @@
+import { TextWithBold } from "@/shared/utils/textWithBold";
 import { rubik600 } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import { TextWithBold } from "@/shared/utils/textWithBold";
 import type { PropsDetailsPointsList } from "@/shared/types/props";
 
 
-export default function DetailsPointsList({
+export const DetailsPointsList = ({
   // id,
   title,
   bold,
   categoryIdx,
   pointIdx
-}: PropsDetailsPointsList) {
+}: PropsDetailsPointsList) => {
   return (
     <li className="flex min-h-8 pt-4">
       <p

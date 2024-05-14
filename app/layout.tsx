@@ -1,6 +1,6 @@
-import "../shared/styles/globals.css";
+import "@/shared/styles/globals.css";
+import { NavList } from "./_components/navigation/navList";
 import type { Metadata } from "next/types";
-import NavList from "./_components/navigation/navList";
 
 export const metadata: Metadata = {
   title: "Index Page",

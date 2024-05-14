@@ -1,7 +1,7 @@
 import { subMenu } from "@/shared/data/submenu";
-import NavItem from "./navItem";
+import { NavItem } from "./navItem";
 
-export default function NavList() {
+export const NavList = () => {
   return (
     <nav className="visible relative h-fit border-[1px] border-white border-opacity-15 laptopmax:hidden">
         {subMenu.map((item, idx) => (

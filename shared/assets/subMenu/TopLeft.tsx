@@ -1,12 +1,12 @@
 import type { PropsSvg } from "@/shared/types/props";
 
-const TopLeft = ({ className }: PropsSvg) => (
+export const TopLeft = ({ className, fill }: PropsSvg) => (
   <svg
     className={className}
     width="18"
     height="27"
     viewBox="0 0 18 27"
-    fill="none"
+    fill={fill || "none"}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -28,4 +28,3 @@ const TopLeft = ({ className }: PropsSvg) => (
     </defs>
   </svg>
 );
-export default TopLeft;

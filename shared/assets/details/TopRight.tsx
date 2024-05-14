@@ -1,6 +1,6 @@
 import type { PropsSvg } from "@/shared/types/props";
 
-const TopRight = ({ className, fill }: PropsSvg) => (
+export const TopRight = ({ className, fill }: PropsSvg) => (
   <svg
     className={className}
     width="30"
@@ -16,4 +16,3 @@ const TopRight = ({ className, fill }: PropsSvg) => (
     />
   </svg>
 );
-export default TopRight;

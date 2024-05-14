@@ -1,9 +1,9 @@
-import { detailsList } from "@/shared/data/details";
+import { DetailsSubCategoriesList } from "./detailsSubCategoriesList";
 import { sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
-import DetailsList from "./detailsList";
+import { detailsList } from "@/shared/data/details";
 
-export default function DetailsCategoriesList() {
+export const DetailsCategoriesList = () => {
   return (
     <div className="flex flex-col gap-9">
       {detailsList.map((items, idx) => (
@@ -20,7 +20,7 @@ export default function DetailsCategoriesList() {
             {items.category}
           </h2>
 
-          <DetailsList subItems={items.list} />
+          <DetailsSubCategoriesList subItems={items.list} />
         </section>
       ))}
     </div>

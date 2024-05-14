@@ -1,15 +1,17 @@
-import BottomLeft from "@/shared/assets/details/BottomLeft";
-import BottomRight from "@/shared/assets/details/BottomRight";
-import BottomRightInactive from "@/shared/assets/details/BottomRightInactive";
-import TopLeft from "@/shared/assets/details/TopLeft";
-import TopLeftInactive from "@/shared/assets/details/TopLeftInactive";
-import TopRight from "@/shared/assets/details/TopRight";
-import DetailsPointsList from "./detailsPointsList";
+import { DetailsPointsList } from "./detailsPointsList";
 import { rubik400, sofiaSans } from "@/shared/styles/fonts";
 import { twMerge } from "tailwind-merge";
+import {
+  BottomLeft,
+  BottomRight,
+  BottomRightInactive,
+  TopLeft,
+  TopLeftInactive,
+  TopRight,
+} from "@/shared/assets/details";
 import type { PropsDetailsList } from "@/shared/types/props";
 
-export default function DetailsList({ subItems }: PropsDetailsList) {
+export const DetailsSubCategoriesList = ({ subItems }: PropsDetailsList) => {
   return (
     <div className="flex flex-col gap-2">
       {subItems.map((item, idx) => (
@@ -70,4 +72,4 @@ export default function DetailsList({ subItems }: PropsDetailsList) {
       ))}
     </div>
   );
-}
+};
